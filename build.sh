@@ -1,3 +1,3 @@
 #!/bin/sh
 cd $TRAVIS_BUILD_DIR/secret-santa
-mvn clean install
+mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
