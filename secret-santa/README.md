@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/Sarvesh-D/Games.svg?branch=master)](https://travis-ci.org/Sarvesh-D/Games)
+[![codecov](https://codecov.io/gh/Sarvesh-D/Games/branch/master/graph/badge.svg)](https://codecov.io/gh/Sarvesh-D/Games)
 
 # Secret Santa game to be played this Christmas
 
