@@ -10,7 +10,6 @@ jdk:
   - oraclejdk8
 
 script:
-  # JaCoCo is used to have code coverage, the agent has to be activated
   - $TRAVIS_BUILD_DIR/build.sh
 
 cache:
@@ -23,3 +22,6 @@ notifications:
 
 before_install:
  - chmod +x $TRAVIS_BUILD_DIR/build.sh
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
