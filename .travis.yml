@@ -1,5 +1,5 @@
 language: java
-sudo: true
+sudo: false
 install: true
 
 addons:
@@ -22,3 +22,6 @@ cache:
 
 notifications:
   email: false
+
+before_install:
+ - chmod +x $TRAVIS_BUILD_DIR/build.sh
